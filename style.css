@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+body {
+    background-image: url("geo-background.jpg");
+    background-size: cover;
+}
+
+#center-info {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    width: 225px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    background-color: darkslategray; 
+
+}
+
+#Link {
+    margin-top: 25px;
+}
+
+#enter-button {
+    width: 174px;
+    background-color: grey;
+    color: white;
+    margin-bottom: 25px;
+}
